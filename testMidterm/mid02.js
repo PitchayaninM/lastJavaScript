@@ -3,7 +3,7 @@ function highestDigit(number){
         return 0;
        }
    else{
-     return Math.max(number%10, highestDigit(Math.floor(number/10)));
+        return Math.max(number%10, highestDigit(Math.floor(number/10)));
    }
  }
 
